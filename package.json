@@ -1,0 +1,24 @@
+{
+  "name": "bullsfirst",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "webpack && lite-server"
+  },
+  "devDependencies": {
+    "angular": "^1.6.3",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "eslint": "^3.18.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-webpack": "^1.5.0",
+    "light-server": "^1.0.0",
+    "local-web-server": "^0.5.23",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2",
+  }
+}
