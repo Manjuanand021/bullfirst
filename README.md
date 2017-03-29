@@ -10,7 +10,6 @@ $ npm i
 $ npm build - Create Webpack build
 $ npm clean - Clean build folder
 $ npm dev - Run Webapck dev server
-$ npm hot - Run Webpack Hot Module Replacement(HMR) - This is not working right now
 $ npm prod - Create Webpack prod build
 
 http://localhost:3000/ in browser.
@@ -21,6 +20,7 @@ http://localhost:3000/ in browser.
 ```
 $ Configured webpack to create dev and prod builds
 $ changed controllers to ES 6 classes for easy understanding
+$ Implemented tree-shaking on javascript files
 $ Babel converts ES6 to ES5
 $ Converted css to SCSS - which helps in writing CSS efficiently
 $ Implemented cache busting to help fresh prod build
