@@ -12,7 +12,7 @@ $ npm clean - Clean build folder
 $ npm dev - Run Webapck dev server
 $ npm prod - Create Webpack prod build
 
-http://localhost:3000/ in browser.
+Opne http://localhost:3000/ in browser.
 
 ```
 
