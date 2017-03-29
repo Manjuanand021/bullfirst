@@ -15,6 +15,9 @@ $ npm prod - Create Webpack prod build
 
 [Click here](http://localhost:3000/) to view application in browser. 
 
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 ```
 
 #### Changes Made
