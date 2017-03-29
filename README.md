@@ -20,7 +20,7 @@ http://localhost:3000/ in browser.
 ```
 $ Configured webpack to create dev and prod builds
 $ changed controllers to ES 6 classes for easy understanding
-$ Implemented tree-shaking on javascript files
+$ Implemented tree-shaking on ES6 modules
 $ Babel converts ES6 to ES5
 $ Converted css to SCSS - which helps in writing CSS efficiently
 $ Implemented cache busting to help fresh prod build
