@@ -7,24 +7,26 @@ $ npm i
 
 #### Run
 ```
-$ npm start
+$ npm build - Create Webpack build
+$ npm clean - Clean build folder
+$ npm dev - Run Webapck dev server
+$ npm hot - Run Webpack Hot Module Replacement(HMR) - This is not working right now
+$ npm prod - Create Webpack prod build
 
 ```
 
 #### Changes Made
 ```
-$ Included Webpack for module budling which ships application bundle and vendor bundle files seperate
-$ Web pack imports all the controllers, directives, services and filters at once in app.js file instead of individually importing. This helps if the application grows in size
-$ I have included gulpfile as well but unfortunately I could not complete this becaue of time constraints. Given time I can implement complete build automation using gulp js
-$ For time being I have used npm as build automation tool
-$ Things I had in mind - 
-    * Write CSS in SCSS and optimize and reduce the amount of css lines. USe gulp-scss to preprocess scss 
-    * Compress images to increse load time and download time. Use gulp-imagemin to compress the images
-    * Use ES -lint for code quality
-    * Karma, chai, mocha as unit test frameworks
-    * Use gulp-uglify to compress webpack bundles
-$ Could find time only to optimize AccountController.js
-$ Given time I can optimize HTML, CSS and JS as well. 
+$ Configured webpack to create dev and prod builds
+$ changed controllers to ES 6 classes for easy understanding
+$ Babel converts ES6 to ES5
+$ Converted css to SCSS - which helps in writing CSS efficiently
+$ Implemented cache busting to help fresh prod build
+$ Webpack web server runs on port 3000 and has zgip compression enabled
+$ Could not get time to change CSS and HTML. Given time I can re-structure both
+$ .eslintsrc can be included for code quality. I have not put .eslintsrc file
+$ Could nt get time to write unit test cases
+$ **This is all I could do in my available time**
 
 
 ```

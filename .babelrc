@@ -1,0 +1,12 @@
+{
+    "presets": [
+        [
+            "es2015",
+            //Do not transpile vert ES6 modules to common js modules
+            //For tree-shaking
+            {
+                "modules": false
+            }
+        ]
+    ]
+}
