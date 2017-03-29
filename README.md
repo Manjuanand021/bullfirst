@@ -13,6 +13,8 @@ $ npm dev - Run Webapck dev server
 $ npm hot - Run Webpack Hot Module Replacement(HMR) - This is not working right now
 $ npm prod - Create Webpack prod build
 
+Hit http://localhost:3000/ to view the application in browser.
+
 ```
 
 #### Changes Made
